@@ -3,4 +3,4 @@ import { beersWatcher } from './beersSaga';
 
 export function* rootWatcher() {
   yield all([beersWatcher()])
-};
+}
